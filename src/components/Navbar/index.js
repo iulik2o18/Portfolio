@@ -6,14 +6,7 @@ const NavBar = () => {
     <>
       <Nav className="navbar">
         <Bars />
-        <h1
-          style={{
-            fontSize: "3rem",
-            fontWeight: "700",
-            fontFamily: "Bestermind",
-            margin: "10px",
-          }}
-        >
+        <h1 className="navbar__title">
           Iulian Portfolio
         </h1>
         <NavMenu>

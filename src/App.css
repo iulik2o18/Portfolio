@@ -44,3 +44,199 @@
   width: 80%;
   align-items: center;
 }
+
+.navbar__title{
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Bestermind";
+  margin: 10px;
+}
+
+.text__content{
+  color: white;
+  width: 45%;
+  margin-right: 7rem;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 640px){
+  .navbar{
+    font-size: 1.7rem !important;
+    font-weight: 700;
+    font-family: "Bestermind";
+    margin: 10px;
+    width: 95% !important;
+  }
+
+  .navbar__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Bestermind";
+    margin: 10px;
+  }
+
+  .main__elem{
+    flex-direction: column !important;
+  }
+
+  .main__second{
+    flex: initial !important;
+    height: 30% !important;
+    width: 100% !important;
+    padding-bottom: 18rem;
+  }
+
+  .main__content{
+    margin: 2.74rem;
+  }
+
+  .main__content--hidden{
+    display: none;
+  }
+
+  .landing--img {
+    --img-size: 200px;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: var(--img-size);
+    height: var(--img-size);
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    transition: opacity 0.3s;
+    max-width: none !important;
+    align-items: center;
+  }
+
+  .text__content{
+    color: white;
+    width: 70%;
+    margin-right: 7rem;
+    margin-top: 2rem;
+    font-style: normal;
+  }
+
+  .main__first {
+    width: 100%;
+  }
+
+  .first__content{
+    width: 70%;
+    text-align: center;
+    margin-right: 4rem;
+  }
+
+  .button__content{
+    width: auto;
+    flex-direction: column;
+  }
+
+  .button__content--two{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .navbar{
+    font-size: 1.7rem !important;
+    font-weight: 700;
+    font-family: "Bestermind";
+    margin: 10px;
+    width: 95% !important;
+  }
+
+  .navbar__title{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Bestermind";
+    margin: 10px;
+  }
+
+  .main__elem{
+    flex-direction: column !important;
+  }
+
+  .main__second{
+    flex: initial !important;
+    height: 30% !important;
+    width: 100% !important;
+    padding-bottom: 18rem;
+  }
+
+  .main__content{
+    margin: 2.74rem;
+  }
+
+  .main__content--hidden{
+    display: none;
+  }
+
+  .landing--img {
+    --img-size: 200px;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: var(--img-size);
+    height: var(--img-size);
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    transition: opacity 0.3s;
+    max-width: none !important;
+    align-items: center;
+  }
+
+  .main__first {
+    width: 100%;
+  }
+
+  .first__content{
+    width: 70%;
+    text-align: center;
+    margin-right: 4rem;
+  }
+
+  .button__content{
+    width: auto;
+    flex-direction: column;
+  }
+
+  .button__content--two{
+    display: none;
+  }
+
+  .text__content{
+    color: white;
+    width: 70%;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    font-style: normal;
+  }
+  .text__content--title{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: -0.85rem;
+    opacity: 0.8;
+  }
+
+  .text__content--name{
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin: 1rem 0 1rem 0 !important;
+  }
+
+  .text__content--desc {
+    margin-top: 1.45rem;
+    font-weight: 600;
+    font-size: 1.28rem;
+    opacity: 700;
+  }
+}

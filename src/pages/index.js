@@ -15,8 +15,9 @@ const Home = () => {
   return (
     <>
       <div class="flex h-screen items-center justify-center">
-        <div class="h-full w-full relative flex items-center justify-center">
+        <div class="main__elem h-full w-full relative flex items-center justify-center">
           <div
+          class = "main__second"
             style={{
               display: "flex",
               justifyContent: "flex-start",
@@ -29,16 +30,16 @@ const Home = () => {
             <div class="flex justify-start m-3 h-full items-end">
               <div class="m-12 w-full items-center flex justify-start flex-col">
                 <a href="https://uk.linkedin.com">
-                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                  <FontAwesomeIcon icon={faLinkedin} size="3x" class = "main__content--hidden" />
                 </a>
                 <a href="https://en-gb.facebook.com">
-                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" class = "main__content--hidden" />
                 </a>
                 <a href="https://www.instagram.com/?hl=en">
-                  <FontAwesomeIcon icon={faInstagramSquare} size="3x" />
+                  <FontAwesomeIcon icon={faInstagramSquare} size="3x" class = "main__content--hidden" />
                 </a>
                 <a href="https://twitter.com/?lang=en">
-                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
+                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" class = "main__content--hidden" />
                 </a>
               </div>
             </div>
@@ -55,21 +56,21 @@ const Home = () => {
               alignItems: "flex-end",
             }}
           >
-            <div class="text-white w-[45%] mr-28 non-italic">
-              <h6 class="font-medium text-3xl mb-[-0.85rem] opacity-80">
+            <div class="text__content">
+              <h6 class="text__content--title font-medium text-3xl mb-[-0.85rem] opacity-80">
                 Junior FrontEnd Developer
               </h6>
-              <h1 class="font-semibold text-[3.25rem] leading-[110%] !my-[1rem] mx-0">
+              <h1 class="text__content--name font-semibold text-[3.25rem] leading-[110%] !my-[1rem] mx-0">
                 Iulian Spătaru
               </h1>
-              <p class="mt-[1.45rem] font-semibold text-[1.45rem] opacity-70">
+              <p class="text__content--desc mt-[1.45rem] font-semibold text-[1.45rem] opacity-70">
                 Competent and team oriented junior programmer with 2+ year
                 experience of working as a junior php programmer. Good knowledge
                 of html, css, php, javascript and personal projects in difrent
                 frameworks ranging from pygame, react, vue.js, tailwind
                 wordpress etc.
               </p>
-              <div class="flex items-center mt-10 justify-between w-[350px]">
+              <div class="button__content--two flex items-center mt-10 justify-between w-[350px]">
                 <a href={cv} target="_blank">
                   <Button
                     variant="text"
